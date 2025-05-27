@@ -17,18 +17,21 @@ DataHubX is a production-grade data platform that simulates a real-world enterpr
 ## 📁 Directory Structure
 <pre>
 DataHubX/
-├── ingestion/           # Kafka producers / Airbyte configs
-├── streaming/           # Flink jobs
-├── batch/               # Spark jobs
-├── warehouse/           # Hive SQL / dbt models
-├── airflow/             # DAG definitions
-├── quality/             # Data quality configs (Great Expectations)
-├── lineage/             # Metadata & lineage tools
-├── api/                 # FastAPI-based query services
-├── dashboards/          # Superset dashboards / screenshots
-├── deploy/              # Docker / CI/CD configs
-├── tests/               # Unit & integration tests
-└── README.md            # Project overview
+├── ingestion/         → Kafka producers, CDC, Airbyte
+├── streaming/         → Flink + CEP
+├── batch/             → Spark with Hudi/Iceberg
+├── warehouse/         → dbt or Hive SQL models
+├── airflow/           → DAGs + configs
+├── quality/           → Great Expectations
+├── lineage/           → Apache Atlas
+├── api/               → FastAPI service
+├── dashboards/        → Superset/Metabase charts
+├── deploy/            → Docker + monitoring
+├── llm_module/        → GPT / 文心一言行为分析
+├── security/          → Apache Ranger
+├── tests/             → 单元测试和 CI/CD
+└── README.md          → 项目文档
+
 </pre>
 
 ## 📌 How to Start
