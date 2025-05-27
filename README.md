@@ -15,19 +15,21 @@ DataHubX is a production-grade data platform that simulates a real-world enterpr
 - **DevOps**: Dockerized deployment with GitHub Actions for CI/CD workflows.
 
 ## 📁 Directory Structure
+<pre>
 DataHubX/
-├── ingestion/ # Kafka producers / Airbyte configs
-├── streaming/ # Flink jobs
-├── batch/ # Spark jobs
-├── warehouse/ # Hive SQL / dbt models
-├── airflow/ # DAG definitions
-├── quality/ # Data quality configs (Great Expectations)
-├── lineage/ # Metadata & lineage tools
-├── api/ # FastAPI-based query services
-├── dashboards/ # Superset dashboards / screenshots
-├── deploy/ # Docker / CI/CD configs
-├── tests/ # Unit & integration tests
-└── README.md # Project overview
+├── ingestion/           # Kafka producers / Airbyte configs
+├── streaming/           # Flink jobs
+├── batch/               # Spark jobs
+├── warehouse/           # Hive SQL / dbt models
+├── airflow/             # DAG definitions
+├── quality/             # Data quality configs (Great Expectations)
+├── lineage/             # Metadata & lineage tools
+├── api/                 # FastAPI-based query services
+├── dashboards/          # Superset dashboards / screenshots
+├── deploy/              # Docker / CI/CD configs
+├── tests/               # Unit & integration tests
+└── README.md            # Project overview
+</pre>
 
 ## 📌 How to Start
 
